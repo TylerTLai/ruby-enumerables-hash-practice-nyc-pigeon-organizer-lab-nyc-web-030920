@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
 
   data.each_pair do |key, value| #access to hash of key/values (color/purple)
   
-    value.each_pair do |key2, value2| #access to hash of key2/names(purple/theo)
+    value.each_pair do |key2, value2| #access to hash of key2/names (purple/theo)
       
       value2.each do |name| #access to names
 
